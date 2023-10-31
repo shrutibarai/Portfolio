@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position:fixed;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    margin-left: 700px;
+}
+.navbar ul li{
+    font-family: "Calibri";
+    font-size: 1.1rem;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(19, 220, 235);
+    padding: 8px 25px;
+    transition:all .5s ease;
+}
+
+.navbar ul li a:hover{
+    color:rgb(253, 8, 192);
+    border:1px;
+    border-color: rgb(231, 7, 145);
+}
+
+/* home section */
+#Home{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(68, 238, 187);
+}
+#Home::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:700px;
+    width: 100%;
+    z-index: -1;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(231, 68, 182); */
+    align-items: center;
+    position: absolute;
+    top:30%;
+    right: 10%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    font-family: "Lucida Bright";
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: rgb(226, 58, 218);
+    margin-top:-300px ;
+    margin-left: 700px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    margin-right: 600px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    margin-left: 700px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(59, 230, 236);
+    box-shadow: 0 0 5px white, 0 0 15px white;  
+    font-weight: bold;
+
+}
+.resume{
+    color: rgb(236, 49, 190);
+    text-decoration-line: none;
+    padding: 8px 25px;
+    border: 1px solid rgb(155, 13, 124);
+}
+ .resume:hover{
+    color: rgb(133, 11, 112);
+    background-color: rgb(243, 111, 232);
+    box-shadow: rgb(133, 4, 133);
+} 
+
+/* about section */
+#About{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color:white;
+    height: 700px;
+    
+}
+.heading1{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: rgb(61, 15, 61);
+    text-decoration: double solid rgb(128, 11, 122);
+}
+
+#pic{
+    display:flex;
+}
+#intro{
+    display: flex;
+    color: rgb(63, 52, 226);
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#intro h2{
+    font-size: 2rem;
+}
+#intro p{
+    font-size: 1rem;
+}
+
+/* Skills section */
+
+#Skills{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;  
+    height: 700px;
+}
+.list{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    padding-bottom: 17px;
+    margin-left: 100px;
+    
+}
+.list ul{
+    list-style-type:none;
+    
+}
+.list ul li{
+    
+}
+.list ul li img{
+    margin-right: 10px;
+    justify-content: left;
+    
+}
+.skimg{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.imgli{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 200px;
+}
+
+/* Contact section */
+#Contact{
+    background-color: white;
+    height: 650px;
+    
+}
+.info{
+     display: flex;
+     flex-direction: row;
+     margin-left: 800px;
+     margin-top: -300px;
+     
+}
+.info img{
+    display: flex;
+    flex-direction: row;
+}
+.info h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+.info1{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 800px;
+}
+.heading2{
+    margin-left: 500px;
+    font-size: 3rem;
+    font-family: century;
+}
+
+
